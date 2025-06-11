@@ -1,0 +1,43 @@
+/* Container for the cards */
+.featured .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three cards per row */
+  gap: 20px; /* Gap between the cards */
+  margin-top: 30px; /* Space above the grid */
+}
+
+/* Card styling */
+.featured .box {
+  box-shadow: 0 0 20px 0 rgb(112 121 138 / 18%);
+  border-radius: 6px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect to scale the card */
+.featured .box:hover {
+  transform: scale(1.05);
+}
+
+/* Image styling */
+.featured img {
+  width: 100%; /* Make image take full width of the card */
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Ensure images are cropped proportionally to fit the height */
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Title and label */
+.featured h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.featured label {
+  font-size: 14px;
+  color: #888;
+}
