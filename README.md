@@ -1,16 +1,39 @@
-# React + Vite
+# RentUP — Real Estate & Property Discovery Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive real estate web application built with **React** and **Vite**, enabling users to browse properties for sale and rent, filter listings by city, property type, and budget, save favorites to a persistent wishlist, and explore detailed property views.
 
-Currently, two official plugins are available:
+**Live Demo:** [estate-property-gray.vercel.app](https://estate-property-gray.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Homepage & Hero Section
+![RentUP Homepage](./screenshots/home-preview.png)
 
-## Expanding the Oxlint configuration
+### Property Search & Filtering
+![Property Search Bar](./screenshots/searchbar-preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Property Listings Grid
+![Property Listings](./screenshots/propertylisting-preview.png)
+
+---
+
+## Key Features
+- **Multi-Criteria Property Search:** Filter listings dynamically by city or street keyword, property category, and maximum price.
+- **Persistent Wishlist (`My List`):** Save and remove properties with real-time navbar badge updates backed by `localStorage`.
+- **Client-Side Routing:** Seamless navigation across Home, About, Services, Properties For Sale, Pricing, Contact, and individual Property Detail pages (`/property/:id`) configured with SPA rewrites on Vercel.
+- **Responsive UI:** Adaptive layout across desktop, tablet, and mobile viewports.
+
+## Tech Stack
+- **Frontend:** React, React Router DOM, JavaScript (ES6+)
+- **Build Tool & Linter:** Vite, Oxlint
+- **Styling:** Consolidated modular CSS (`App.css`)
+- **Deployment:** Vercel (CI/CD via GitHub `main` branch)
+
+## Getting Started Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Thrichethra/Estate-Property.git](https://github.com/Thrichethra/Estate-Property.git)
+   cd Estate-Property
