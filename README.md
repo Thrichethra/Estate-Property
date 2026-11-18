@@ -9,13 +9,13 @@ A responsive real estate web application built with **React** and **Vite**, enab
 ## Screenshots
 
 ### Homepage & Hero Section
-![RentUP Homepage](./screenshots/home-preview.png)
+![RentUP Homepage](./screenshots/home-preview.png.png)
 
 ### Property Search & Filtering
-![Property Search Bar](./screenshots/searchbar-preview.png)
+![Property Search Bar](./screenshots/searchbar-preview.png.png)
 
 ### Property Listings Grid
-![Property Listings](./screenshots/propertylisting-preview.png)
+![Property Listings](./screenshots/propertylisting-preview.png.png)
 
 ---
 
